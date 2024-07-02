@@ -1,0 +1,73 @@
+/* Estilo para o contêiner principal */
+.container {
+    /* Define a largura máxima do contêiner */
+    max-width: 400px;
+    /* Define a altura do contêiner */
+    height: 600px;
+    /* Centraliza o contêiner verticalmente */
+    display: flex;
+    flex-direction: column;
+    /* Centraliza o contêiner horizontalmente */
+    margin: 0 auto;
+    /* Adiciona espaçamento interno (padding) */
+    padding: 50px;
+    /* Define o fundo do contêiner */
+    background-color: #9dc9ef;
+    border-radius: 20px;
+    align-items: center; /* Alinha verticalmente (opcional) */
+    justify-content: center;
+
+}
+
+/* Define o contêiner de grade usando Grid Layout */
+.grid-container {
+    display: grid; /* Ativa o Grid Layout no contêiner */
+    grid-template-columns: repeat(4, 1fr); /* Cria três colunas iguais */
+    gap: 10px; /* Define o espaço entre as células da grade */
+    padding: 10px; /* Define o preenchimento interno */
+    grid-template-rows: 100px 100px 100px 100px;
+    grid-template-columns: 80px 80px 80px 80px;
+    text-align: center;
+    padding-top: 50px; /* Espaço maior no topo */
+    margin-top: -20px;
+}
+
+/* Estilização dos itens dentro do Grid Layout */
+.grid-item {
+    background-color: #f1f1f1; /* Define a cor de fundo dos itens */
+    padding: 20px; /* Define o preenchimento interno dos itens */
+    border-radius: 7px;
+    text-align: center; /* Centraliza o texto horizontalmente */
+    cursor: pointer; /* Adiciona cursor ao passar sobre os itens */
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#display {
+    background-color: aliceblue;
+    width: 100%;
+    height: 70px;
+    font-size: 36px;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+#op{
+    background-color: rgb(30, 103, 167);
+    color: white;
+}
+
+#on-off-button{
+    background-color: rgb(30, 103, 167);
+    color: white;
+    border-radius: 20px;
+    width: 80%;
+    border: none;
+    height: 50px;
+}
